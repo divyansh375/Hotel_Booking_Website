@@ -1,0 +1,14 @@
+create table user_details(username varchar(20),pass varchar(20),name varchar(20),email varchar(20));
+create table hotel_details(city varchar(20),name varchar(20),address varchar(20),cost int(20));
+INSERT INTO `hotel_details`(`city`, `name`, `address`, `cost`) VALUES ('Mumbai','Taj','Apollo Bandar',10000);
+INSERT INTO `hotel_details`(`city`, `name`, `address`, `cost`) VALUES ('Mumbai','Suba International','Plot No. 211,Chakala',2000);
+INSERT INTO `hotel_details`(`city`, `name`, `address`, `cost`) VALUES ('Mumbai','T2 Beacon Mumbai','Andheri Kurla Road',2000);
+INSERT INTO `hotel_details`(`city`, `name`, `address`, `cost`) VALUES ('Mumbai','LA Hotel Metro','Kurla West, Mumbai',3000);
+
+
+INSERT INTO `hotel_details`(`city`, `name`, `address`, `cost`) VALUES ('Delhi','Radisson Blu','District Centre',1000);
+INSERT INTO `hotel_details`(`city`, `name`, `address`, `cost`) VALUES ('Delhi','Le Roi','Rajguru Road',1000);
+INSERT INTO `hotel_details`(`city`, `name`, `address`, `cost`) VALUES ('Delhi','De Gold','Bank Street',8000);
+INSERT INTO `hotel_details`(`city`, `name`, `address`, `cost`) VALUES ('Delhi','City Park','Gopal Mandir Rd','10000');
+
+create table booked_hotels_details(username varchar(50),hotel_name varchar(50),from_date varchar(40),to_date varchar(40),person_count int(20));
